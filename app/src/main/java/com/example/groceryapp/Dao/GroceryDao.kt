@@ -11,11 +11,10 @@ interface GroceryDao {
 
 
     @Delete
-    suspend fun delete(item: GroceryItems)
+    suspend fun deleteItem(item: GroceryItems)
 
 
     @Query("SELECT * FROM grocery_items")
     fun getALlGroceryItems():LiveData<List<GroceryItems>>
 
 }
-//Dao

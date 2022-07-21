@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.groceryapp.DescriptionActivity
 import com.example.groceryapp.Model.GroceryItems
 import com.example.groceryapp.R
-import kotlinx.android.synthetic.main.grocery_rv_item.view.*
 
 class GroceryRvAdapter(
     val context: Context,
